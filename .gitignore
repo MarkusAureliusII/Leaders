@@ -1,0 +1,16 @@
+# Database volumes - should not be committed
+volumes/db/data/
+volumes/storage/
+volumes/logs/
+
+# Docker logs and runtime files
+*.log
+.DS_Store
+
+# Environment files with secrets (keep the template)
+# .env
+
+# Temporary files
+*.tmp
+*.temp
+docker-compose.temp.yml
